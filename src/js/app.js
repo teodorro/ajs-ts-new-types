@@ -1,6 +1,15 @@
 // TODO: write your code here
-import sum from './basic';
+import Movie from './movie';
 
-console.log('worked');
+const movie = new Movie(
+  1,
+  'Avengers',
+  100500,
+  2012,
+  'US',
+  'Avengers Assemble!',
+  ['фантастика', 'боевик', 'фэнтэзи', 'приключения'],
+  137,
+);
 
-console.log(sum([1, 2]));
+console.log(movie);
