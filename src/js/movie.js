@@ -1,4 +1,3 @@
-
 Object.defineProperty(exports, '__esModule', { value: true });
 class Movie {
   constructor(id, name, price, year, country, tagline, genres, duration) {
